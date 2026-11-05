@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Note: Properties here can override MPLAB project settings
+      "name": "Project01 - Simulator",
+      "type": "mplab-core-da",
+      "request": "launch",
+      "project": "Project01",
+      "configuration": "default",
+      "device": "AVR128DB48",
+      "tool": "Simulator",
+      "stopOnEntry": false
+    },
+    {
+      // Note: Properties here can override MPLAB project settings
+      "name": "Project01 - Curiosity Nano",
+      "type": "mplab-core-da",
+      "request": "launch",
+      "project": "Project01",
+      "configuration": "default",
+      "device": "AVR128DB48",
+      "tool": "PKOB nano",
+      "interface": "UPDI",
+      "stopOnEntry": false
+    }
+  ]
+}
